@@ -1,0 +1,32 @@
+.top-bar {
+    height: 56px;
+    padding: 0 10%;
+    display: flex;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.05);
+    align-items: center;
+    justify-content: space-between;
+    & > img {
+        height: 28px;
+    }
+    & .user {
+        display: flex;
+        align-items: center;
+        & .avatar {
+            width: 36px;
+            height: 36px;
+            background-color: #9aa5b130;
+            border-radius: 50%;
+            & > p {
+                text-align: center;
+                font-weight: bold;
+                margin-top: 7px;
+                font-size: 18px;
+            }
+        }
+        & .name {
+            font-size: 14px;
+            padding-left: 5px;
+        }
+    }
+    
+}

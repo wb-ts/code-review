@@ -1,0 +1,39 @@
+.main {
+    margin-top: 60px;
+    height: 82vh;
+    padding: 0 7%;
+    display: flex;
+    flex-direction: row;
+    & > ul {
+        width: 20%;
+        list-style: none;
+        font-size: 16px;
+        & > li {
+            padding: 10px;
+            &.selected {
+                font-weight: bold;
+                color: #000000;
+                background-color: #F5F7FA;
+            }
+            & > a {
+                width: 100%;
+                text-decoration: none;
+                text-transform: capitalize;
+                &:active {
+                    color: #3E4C59;
+                }
+                &:hover {
+                    color: #3E4C59;
+                }
+                &:visited {
+                    color: #3E4C59;
+                }
+            }
+        }
+    }
+    & .page {
+        width: 100%;
+        padding: 0 3%;
+    }
+    
+}
